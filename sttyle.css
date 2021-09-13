@@ -1,0 +1,117 @@
+html * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-container {
+    position: relative;
+    height: 50px;
+    color: #333333;
+    background-color: #d1d1d1;
+}
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input-container {
+    height: 60px;
+    position: relative;
+    background-color: #d1d1d1;
+}
+.input-adjust {
+    position: absolute;
+    left: 53%;
+    top: 10px;
+    transform: translateX(-50%);
+    width: 35%;
+}
+.input-adjust input {
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    width: 73.2%;
+    padding-left: 20px;
+}
+.input-adjust button {  
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    margin-left: 5px;
+    border: none;
+    height: 35px;
+    width: 20%;
+}
+ul li {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 12px 40px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+ul li:nth-child(odd) {
+    background-color: #dddd;
+}
+ul li:hover {
+    background-color: #acacac;
+}
+ul li.checked {
+    color: white;
+    background-color: #888888;
+    text-decoration: line-through;
+}
+.fas {
+    position: relative;
+    float: right;
+    font-size: 35px;
+    bottom: 7px;
+    z-index: 1;
+    transition: 0.3s;
+}
+.fas:hover {
+    transform: scale(1.2);
+}
+.popup-warning {
+    padding: 10px 0;
+    position: absolute;
+    border: 2px solid red;
+    color: black;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-55%);
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    width: 20%;
+    z-index: 1;
+}
+.popup-warning-shadow {
+    padding: 10px 0;
+    box-shadow: 0 0 10px 1px #888888;
+    position: absolute;
+    border: 2px solid black;
+    color: black;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-55%);
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    width: 20%;
+}
+.triangle {
+    position: absolute;
+    left: 48.5%;
+    top: 42.5px;
+    transform: rotate(45deg);
+    box-shadow: 0 0 10px 1px #888888;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+}
+.popup-container {
+    display: none;
+}
