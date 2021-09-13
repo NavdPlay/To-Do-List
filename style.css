@@ -42,11 +42,12 @@ html * {
     border: none;
     height: 35px;
     width: 20%;
+    cursor: pointer;
     transition: 0.3s;
 }
 .input-adjust button:hover {
-    box-shadow: 0 0 10px 1px #888888; 
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 1px #888;
 }
 ul li {
     -webkit-user-select: none;
