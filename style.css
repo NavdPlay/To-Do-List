@@ -76,6 +76,7 @@ ul li.checked {
     bottom: 7px;
     z-index: 1;
     transition: 0.3s;
+    cursor: pointer;
 }
 .fas:hover {
     transform: scale(1.2);
