@@ -1,27 +1,29 @@
-# To-Do-List
+To-Do-List
+=========================
+<b>For manual in Indonesian, click <a href="https://github.com/NavdPlay/Madoka-Higuchi-Custom-Tab/wiki/Manual-id">here</a></b>
 
-Proyek ini adalah proyek yang saya kerjakan saat saya sedang jenuh, atau bisa dibilang proyek gabut. Proyek ini adalah simple to do list atau daftar tugas yang harus dikerjakan.
+A normal to do list with simple dark themed design using JavaScript localStorage to store tasks which offers a way to save a value without using any database technology.
 
-Fitur-fitur: 
-- Menambah dan menghapus tugas yang anda masukkan.
-- Validasi input nama tugas yang kosong.
-- Menandakan tugas sudah selesai tanpa menghapusnya.
+<a href="https://navdplay.github.io/To-Do-List">✨Finished Product✨</a>
+<br><br>
+[How To Use?](#how-to-use)
 
-Teknologi yang digunakan: 
+Note!!!
+=========================
+- I haven't made this page responsive, so currently this web is only addressed for PC/laptop browsers.
 
-Visual Studio Code 
-<img alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-<br>
-HTML5
-<img alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<br>
-CSS
-<img alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<br>
-JavaScript
-<img alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<br>
-Library jQuery
-<img alt="jQuery" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png" />
-#
-Link Demo: https://navdplay.github.io/To-Do-List/
+Changelog
+=========================
+* Oct 15, 2022: 
+  * The app is released 🎉🎉
+* Oct 14, 2022: 
+  * Working on the add & remove task algorithm
+* Oct 13, 2022: 
+  * Remaking this app so that it will use the JavaScript localStorage to store tasks
+  * Starting with the design and the elements
+
+How To Use
+=========================
+You can directly access the app through this <a href="https://navdplay.github.io/To-Do-List">link</a>
+
+Enjoy!
