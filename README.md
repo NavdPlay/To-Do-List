@@ -1,6 +1,5 @@
 To-Do-List
 =========================
-<b>For manual in Indonesian, click <a href="https://github.com/NavdPlay/Madoka-Higuchi-Custom-Tab/wiki/Manual-id">here</a></b>
 
 A normal to do list with simple dark themed design using JavaScript localStorage to store tasks which offers a way to save a value without using any database technology.
 
