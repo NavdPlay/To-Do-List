@@ -10,6 +10,7 @@ A normal to do list with simple dark themed design using JavaScript localStorage
 Note!!!
 =========================
 - I haven't made this page responsive, so currently this web is only addressed for PC/laptop browsers.
+- Please don't use the character "." or "|" while inputting tasks, because JS localStorage only accept primitive data type such as string, and I use those characters to seperate the tasks.
 
 Changelog
 =========================
